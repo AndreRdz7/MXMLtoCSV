@@ -27,7 +27,7 @@ public class Main {
                 if (map.containsKey(label)) {
                     attributes.put("org:resource", map.get(label));
                 }
-                else {
+                else{
                     it.remove();
                 }
             }
